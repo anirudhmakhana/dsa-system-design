@@ -27,7 +27,7 @@ class Solution:
     def isArmstrong(self, n: int) -> bool:
         if n <= 0:
             return n == 0  # 0 is technically armstrong
-        k = int(log10(n) + 1)
+        k = int(log10(n) + 1) 
         sum = 0
         original = n
         while n > 0:
